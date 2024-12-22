@@ -41,7 +41,7 @@ jobs:
             kotlin.js.compiler=ir
             kotlin.parallel.tasks.in.project=true
             - name: Upload build artifacts
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: build-artifact
           path: platforms/bukkit/build/libs/*.jar
