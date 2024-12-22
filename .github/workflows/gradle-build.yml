@@ -1,7 +1,9 @@
 name: Gradle Build
 
-on: [ push ]
-
+on:
+  push:
+    branches:
+      - dev/1.21.4
 jobs:
   build:
 
